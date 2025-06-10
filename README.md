@@ -158,7 +158,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is open-source and available under the https://github.com/Shivam990q/Barterly-Redesigned/edit/main/LICENSE.txt
+This project is open-source and available under the (https://github.com/Shivam990q/Barterly-Redesigned/blob/main/LICENSE.txt)
 
 ---
 
