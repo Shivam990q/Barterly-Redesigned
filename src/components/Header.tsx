@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 const Header = () => {
   const location = useLocation();
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   return (
     <div className="fixed top-4 left-0 right-0 flex justify-center z-50 px-4">
@@ -223,16 +224,54 @@ const Header = () => {
                 <div className="absolute inset-0 rounded-full border border-purple-500/30 group-hover:border-purple-500/80 transition-colors duration-300"></div>
               </Link>
             </div>
-            <button className="md:hidden flex items-center text-foreground transition-all duration-300 hover:scale-110 active:scale-95 group" aria-label="Open menu">
+            <button 
+              className="md:hidden flex items-center text-foreground transition-all duration-300 hover:scale-110 active:scale-95 group" 
+              aria-label="Toggle menu"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
               <div className="relative p-2 rounded-full transition-all duration-300 group-hover:bg-purple-500/10">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-menu transition-transform duration-300">
-                  <line x1="4" x2="20" y1="12" y2="12"></line>
-                  <line x1="4" x2="20" y1="6" y2="6"></line>
-                  <line x1="4" x2="20" y1="18" y2="18"></line>
-                </svg>
+                {isMobileMenuOpen ? (
+                  <X className="h-6 w-6 transition-transform duration-300" />
+                ) : (
+                  <Menu className="h-6 w-6 transition-transform duration-300" />
+                )}
               </div>
             </button>
           </div>
+        </div>
+        
+        <div className={`transition-all duration-500 ease-in-out overflow-hidden md:hidden ${isMobileMenuOpen ? 'max-h-96 mt-4' : 'max-h-0'}`}>
+          <nav className="border-t border-purple-500/10 pt-4">
+            <div className="flex flex-row flex-wrap items-center justify-center gap-x-4 gap-y-3 px-4">
+              <Link to="/marketplace" className="text-foreground/80 hover:text-primary px-2 py-1" onClick={() => setIsMobileMenuOpen(false)}>Marketplace</Link>
+              <Link to="/barter" className="text-foreground/80 hover:text-primary px-2 py-1" onClick={() => setIsMobileMenuOpen(false)}>Barter</Link>
+              <Link to="/sessions" className="text-foreground/80 hover:text-primary px-2 py-1" onClick={() => setIsMobileMenuOpen(false)}>Sessions</Link>
+              <Link to="/wallet" className="text-foreground/80 hover:text-primary px-2 py-1" onClick={() => setIsMobileMenuOpen(false)}>Wallet</Link>
+              
+              <div className="w-full flex items-center justify-center gap-3 pt-3">
+                <Link
+                  className={`relative px-5 py-2 rounded-full signin-button-glow text-sm font-medium transition-all duration-300 hover:scale-105 group overflow-hidden ${
+                    location.pathname === '/login' ? 'active' : ''
+                  }`}
+                  to="/login"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <span className="relative z-10">Sign In</span>
+                  <div className="absolute inset-0 rounded-full border border-purple-500/30 group-hover:border-purple-500/80 transition-colors duration-300"></div>
+                </Link>
+                <Link
+                  className={`relative px-5 py-2 rounded-full cta-register-button text-sm font-medium transition-all duration-300 hover:scale-105 group overflow-hidden register-button-glow ${
+                    location.pathname === '/register' ? 'active' : ''
+                  }`}
+                  to="/register"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <span className="relative z-10">Register</span>
+                  <div className="absolute inset-0 rounded-full border border-purple-500/30 group-hover:border-purple-500/80 transition-colors duration-300"></div>
+                </Link>
+              </div>
+            </div>
+          </nav>
         </div>
       </header>
     </div>
