@@ -1,6 +1,11 @@
 # Starry Shape Market - Barterly Redesign
 
-![Starry Shape Market](https://via.placeholder.com/1200x600/4B0082/FFFFFF?text=Starry+Shape+Market)
+![image_2025-06-10_21-39-18](https://github.com/user-attachments/assets/0d340e35-0cbb-4bc0-badc-b237477e91d6)
+
+![image_2025-06-10_21-39-55](https://github.com/user-attachments/assets/bde1a5d9-fe74-4b1e-b83a-a3c26d48e204)
+
+![image_2025-06-10_21-40-47](https://github.com/user-attachments/assets/da88f82f-d31d-4620-8966-c6d1080a3ba7)
+
 
 ## 🚀 Overview
 
@@ -153,7 +158,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📄 License
 
-This project is open-source and available under the [MIT License](LICENSE).
+This project is open-source and available under the (https://github.com/Shivam990q/Barterly-Redesigned/blob/main/LICENSE.txt)
 
 ---
 
