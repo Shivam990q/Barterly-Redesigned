@@ -11,7 +11,7 @@
 
 Starry Shape Market is a redesigned version of "Barterley" built from scratch. It's a modern skill trading platform where users can exchange skills and services instead of using traditional currency. The platform empowers users to monetize their talents while accessing services they need through a skill-based barter system.
 
-**"Your Skill is Your Currency"**
+**"Your Skill is Your Currency"** - LIVE LINK - https://barterly-redesigned.onrender.com
 
 ## ✨ Improvements - Redesigned
 - **Signup / Register - Added Signup Page**
