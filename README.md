@@ -13,6 +13,15 @@ Starry Shape Market is a redesigned version of "Barterley" built from scratch. I
 
 **"Your Skill is Your Currency"**
 
+## ✨ Improvements - Redesigned
+- **Signup / Register - Added Signup Page**
+- **Signin / login - Added login Page**
+- **Fixed the Responsiveness In Header Bar For Phone View Specially**
+- **Added Stars Animation ( Twinkling ) - Used Custom CSS With FRAMER MOTION**
+- **Added 2D Shapes With FRAMER MOTION ( TO ANIMATE )**
+- **Redesigned Footer Design**
+- **In MarketPlace Added CUstom API Integation For AI Powered Search**
+
 ## ✨ Features
 
 - **Skill Wallet**: Track your skill hours and manage your transactions in one place
@@ -31,7 +40,8 @@ Starry Shape Market is a redesigned version of "Barterley" built from scratch. I
 - **State Management**: React Query for server state
 - **Routing**: React Router DOM
 - **Form Handling**: React Hook Form with Zod validation
-- **UI Components**: 
+- **UI Components**:
+  - Framer Motion For Animation
   - Radix UI primitives
   - Lucide React icons
   - Date-fns for date handling
