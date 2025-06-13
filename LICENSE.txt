@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2025 Shivam and Its a "Redesigned Of Barterly" Orignally Concepted By Kartik Sharma and Kuldeep Singh Bhadouriya and its team.
+Copyright (c) 2025 Shivam and Redesigned "Barterley" SourceCode By My Own From "Stratch", Its a "Redesigned Of Barterly" Orignally Concepted By Kartik Sharma and Kuldeep Singh Bhadouriya and its team.
 
 I found some Improvements in my juniors project and a comment in their post ( about the Source Code ) that others wanted to see the working and code format "Due to this we all can freely understands how the new modern technologies will be used to create these websites ).
 
