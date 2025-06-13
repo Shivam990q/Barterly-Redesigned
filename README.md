@@ -20,7 +20,7 @@ Starry Shape Market is a redesigned version of "Barterley" built from scratch. I
 - **Added Stars Animation ( Twinkling ) - Used Custom CSS With FRAMER MOTION**
 - **Added 2D Shapes With FRAMER MOTION ( TO ANIMATE )**
 - **Redesigned Footer Design**
-- **In MarketPlace Added CUstom API Integation For AI Powered Search**
+- **In MarketPlace Added Custom API Integation For AI Powered Search**
 
 ## ✨ Features
 
