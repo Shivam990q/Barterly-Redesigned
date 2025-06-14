@@ -6,6 +6,12 @@
 
 ![image_2025-06-10_21-40-47](https://github.com/user-attachments/assets/da88f82f-d31d-4620-8966-c6d1080a3ba7)
 
+## IMP !!
+✨ Redesigned "Barterly" SourceCode By My Own From "Stratch" ( the Redesigned code on my github repo. have totally copyrighted of me ). 
+
+✨ HAVE DONE LOTS OF IMPROVEMENTS IN THIS VERSION.
+
+✨ I Believe in Sharing and Open - Source Contribution In Every Kind of Tech I know.
 
 ## 🚀 Overview
 
