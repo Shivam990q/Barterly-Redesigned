@@ -6,12 +6,28 @@
 
 ![image_2025-06-10_21-40-47](https://github.com/user-attachments/assets/da88f82f-d31d-4620-8966-c6d1080a3ba7)
 
+## 🔴 IMP !!
+✨ Redesigned "Barterly" SourceCode By My Own From "Stratch" ( the Redesigned code on my github repo. have totally copyrighted of me ). 
+
+✨ HAVE DONE LOTS OF IMPROVEMENTS IN THIS VERSION.
+
+✨ I Believe in Sharing and Open - Source Contribution In Every Kind of Tech I know.
 
 ## 🚀 Overview
 
 Starry Shape Market is a redesigned version of "Barterley" built from scratch. It's a modern skill trading platform where users can exchange skills and services instead of using traditional currency. The platform empowers users to monetize their talents while accessing services they need through a skill-based barter system.
 
-**"Your Skill is Your Currency"**
+**"Your Skill is Your Currency"** - 🌐 LIVE PREVIEW LINK - https://barterly-redesigned.onrender.com
+
+## ✨ Improvements - Redesigned
+- **Signup / Register - Added Signup Page**
+- **Signin / login - Added login Page**
+- **Added "Privacy Policy" and "Terms & Condition" Page**
+- **Fixed the Responsiveness In Header Bar For Phone View Specially**
+- **Added Stars Animation ( Twinkling ) - Used Custom CSS With FRAMER MOTION**
+- **Added 2D Shapes With FRAMER MOTION ( TO ANIMATE )**
+- **Redesigned Footer Design**
+- **In MarketPlace Added Custom API Integation For AI Powered Search**
 
 ## ✨ Features
 
@@ -31,7 +47,8 @@ Starry Shape Market is a redesigned version of "Barterley" built from scratch. I
 - **State Management**: React Query for server state
 - **Routing**: React Router DOM
 - **Form Handling**: React Hook Form with Zod validation
-- **UI Components**: 
+- **UI Components**:
+  - Framer Motion For Animation
   - Radix UI primitives
   - Lucide React icons
   - Date-fns for date handling
